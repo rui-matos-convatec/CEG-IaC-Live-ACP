@@ -11,14 +11,14 @@ All notable changes to this project will be documented in this file.
 This is what is in the backlog.
 
 
-### 2021-23-11 [unreleased] 
-Unreleased push 
+### 2021-23-11 [unreleased]
+Unreleased push
 
 - **Added**:
 - **Changed**:
 - **Deprecated**:
-- **Removed**: 
-- **Fixed**: 
+- **Removed**:
+- **Fixed**:
 - **Security**:
 
 ### 2021-07-16 [published]
@@ -27,8 +27,8 @@ Initial push to GIT
 - **Added**:
 - **Changed**:
 - **Deprecated**:
-- **Removed**: 
-- **Fixed**: 
+- **Removed**:
+- **Fixed**:
 - **Security**:
 
 [changelog]: ./CHANGELOG.md

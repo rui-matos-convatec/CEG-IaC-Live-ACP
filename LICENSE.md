@@ -5,7 +5,7 @@ UNLICENSED - Copyright (C) ConvaTec - All Rights Reserved
 ---
 [![This is the README file][readme-badge]][readme] [![This is the CHANGELOG][changelog-badge]][changelog]
 
-This is a private, internal repository. 
+This is a private, internal repository.
 Unauthorized copying of these files, via any medium is strictly prohibited.
 ConvaTec, as the owner of this source code, exercises  exclusive rights to all code and restricts usage, inspection of source code, modification of source code, and redistribution.
 Proprietary and confidential.

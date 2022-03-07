@@ -20,11 +20,8 @@ repos:
     - id: terraform_fmt
     - id: terraform_docs
     - id: terraform_tflint
-    - id: terraform_fmt
-    - id: terraform_docs
     - id: terraform_validate
-    - id: terrascan
-    - id: terraform_tflint
+    - id: terragrunt_validate
     - id: terraform_tfsec
     - id: checkov
     - id: terrascan
