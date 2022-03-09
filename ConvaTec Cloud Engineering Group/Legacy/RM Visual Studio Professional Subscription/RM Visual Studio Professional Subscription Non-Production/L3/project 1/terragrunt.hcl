@@ -1,7 +1,8 @@
 locals {
   # Automatically load environment-level variables from files in parent folders
   azure_vars        = yamldecode(sops_decrypt_file(find_in_parent_folders("azure.yaml")))
-  subscription_vars = read_terragrunt_config(find_in_parent_folders("subscription.hcl"))
+  subscription_vars = yamldecode(sops_decrypt_file(find_in_parent_folders("subscription.yaml")))
+  #subscription_vars = read_terragrunt_config(find_in_parent_folders("subscription.hcl"))
 
   #resource_vars     = read_terragrunt_config("${get_terragrunt_dir()}/resource.hcl")
 
@@ -38,7 +39,7 @@ terraform {
         ARM_TENANT_ID       = local.azure_vars.azure.aztenant_id #dependency.credentials.outputs.tenant_id
         ARM_CLIENT_ID       = local.azure_vars.azure.azclient_id #dependency.credentials.outputs.client_id
         ARM_CLIENT_SECRET   = local.azure_vars.azure.azclient_secret #dependency.credentials.outputs.client_secret
-        ARM_SUBSCRIPTION_ID = local.subscription_vars.locals.subscription_id
+        ARM_SUBSCRIPTION_ID = local.subscription_vars.subscription_id
     }
 
   }

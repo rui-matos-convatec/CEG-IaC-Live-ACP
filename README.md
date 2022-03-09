@@ -1,12 +1,10 @@
 <img alt="ConvaTec" src="https://upload.wikimedia.org/wikipedia/en/4/4c/ConvaTec_logo.svg">  
 
-[![This is the link to Cloud][azure-badge]][azure]  ![Maintained by][ceg-badge]
-
 # README
 
 This is ConvaTec 's Terragrunt repository for IaC.
 ---
-[![This is the CHANGELOG file][changelog-badge]][changelog] [![This is the USAGE file][usage-badge]][usage]  [![This is the LICENSE file][license-badge]][license]  
+[![This is the link to Cloud][azure-badge]][azure] [![This is the CHANGELOG file][changelog-badge]][changelog] [![This is the NOTICE file][notice-badge]][notice] [![This is the LICENSE file][license-badge]][license] [![GITHUB](https://img.shields.io/badge/github-CEG--IaC--Modules--ACP-brightgreen.svg?style=flat&logo=github)](https://github.com/devCvT/CEG-IaC-Modules-AZURE/) [![TF Registry](https://img.shields.io/badge/terraform-docs-7B42BC.svg?style=flat&logo=terraform)](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)   [![TG Registry](https://img.shields.io/badge/terragrunt-docs-violet.svg?style=flat&logo=terraform)](https://terragrunt.gruntwork.io/docs/)
 
 ## Directory Structure
 ```
@@ -136,20 +134,21 @@ These files make use of [pre-commit framework](http://pre-commit.com/)
 * [`jq`](https://github.com/stedolan/jq) required for `infracost_breakdown` hook.
 
 ## Authors
-Created and maintained by ConvaTec Cloud Engineering Group
-©Convatec 2022
+Created and maintained by ConvaTec Cloud Engineering Group.  
+©Convatec 2022  
 
 ## License
-UNLICENSED - Copyright (C) ConvaTec - All Rights Reserved. See [license]
+UNLICENSED - Copyright (C) ConvaTec - All Rights Reserved. See [license]  
 
-[ceg-badge]: https://img.shields.io/badge/maintaned%20by-Cloud%20Engineering%20Group-yellow
 [azure]: https://portal.azure.com
-[azure-badge]: https://img.shields.io/badge/CLOUD-Microsoft%20Azure-green
+[azure-badge]: https://img.shields.io/badge/cloud-Microsoft%20Azure-blue.svg?style=flat&logo=microsoftazure
 [readme]: ./README.md
-[readme-badge]: https://img.shields.io/badge/README-Check%20README%20file%20for%20module%20information-red
+[readme-badge]: https://img.shields.io/badge/readme-information-red.svg
 [usage]: ./USAGE.md
-[usage-badge]: https://img.shields.io/badge/USAGE-Check%20USAGE%20file%20for%20inputs|output%20information-lightgrey
+[usage-badge]: https://img.shields.io/badge/usage-examples-lightgrey.svg
 [changelog]: ./CHANGELOG.md
-[changelog-badge]: https://img.shields.io/badge/CHANGELOG-Check%20CHANGELOG%20for%20changes-orange
+[changelog-badge]: https://img.shields.io/badge/changelog-release-green.svg
 [license]: ./LICENSE.md
-[license-badge]: https://img.shields.io/badge/LICENSE-%40ConvaTec%20UNLICENSED%20and%20PRIVATE%20USAGE%20ONLY-blue
+[license-badge]: https://img.shields.io/badge/license-%40ConvaTec-orange.svg
+[notice]: ./NOTICE.md
+[notice-badge]: https://img.shields.io/badge/notice-%40copyright-lightgrey.svg
