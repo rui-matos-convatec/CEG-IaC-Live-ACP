@@ -1,0 +1,19 @@
+azureAD: ENC[AES256_GCM,data:uCCFtkrA4LGruI7fu5W+Dg==,iv:qHlOZRUH1nDqcYWx7rzXkwiHFbGPMSx1V3aeJEnvqVM=,tag:gUbhPjCjbrNOT5FYHGK25Q==,type:str]
+primary_domain: ENC[AES256_GCM,data:9dJzlTEkUYVCrTBepn+DnoOgxXoSxk36BboxJ/4=,iv:lHGjhqtUhzE9yU5ctp1qJOvxbQI8Hffq6bw9hDGFnhE=,tag:8KFORUFRzjTV4YD/ni5jcA==,type:str]
+tenantID: ENC[AES256_GCM,data:K9ggOmdVOjha3/JTcriermin2GMmQ3+a2/UuI4mG4Qxd7bM+,iv:3u0wK31MPXVCe9EKzqg2eaHIHAbvlhXTfyXh5rpunIA=,tag:HrtXK3lui+8Va71BeVNT2A==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv:
+        - vault_url: https://kv-cvt-launchpad-prod-l0.vault.azure.net
+          name: sops-key
+          version: 88bfe4d3eee8419d8176b702675908c7
+          created_at: "2022-03-04T12:21:54Z"
+          enc: SYhJJCXK5k7wKxC3d2ZMRiLNxyeiGtRtLCL68ajLOLIPpBHem-HhG8abYie7KKg3zbsN5Xt9foinVMxN3ZqzXoKVOeNgFjgmL6eLbYoi-frELH3lUmh32s2O_D18w5XVRBHTfOm4c4Iqeo9bi08esEBWuEwh6h66QEWFMQ3Rq8yGx-DiI64co5uA1PxiD6J6ddq3zR7gskdNEE9ENIHGy7gYd2UVL-lnG9ehkBL5uWno84s2IeRh5Z8pyFDrOFfCHNQ9EkKYNnBSvr2BqTyyhkIxIlj701zhoDOFNCFb5YBogGzqriO4gq9p0tnnUm6uPE6TYc48BY6cLLzqNg3wAA
+    hc_vault: []
+    age: []
+    lastmodified: "2022-03-09T16:30:55Z"
+    mac: ENC[AES256_GCM,data:e8QXnxZb5HvrJ3jjy0NSvYN/58aY+2Sk0MnJRKCEBkz5xvdC9hbV3hDgRtc5RKzz+jeIzfsxubQP2kqFkX4mOoL8LY7ZTOqzGE4tgytXChb1nl6V7cDXNGHWl4Yh9bkDTeI07+2Oo5Nyq4MLChycB+ZwFx+5tKpCZT92/ZeBMw8=,iv:t9dtrI53442We5s4fLivriFEg3uGPUEfpahVAxirct0=,tag:N39l+8eaqrLsAihi6SzThw==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.1

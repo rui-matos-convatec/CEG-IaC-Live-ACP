@@ -1,0 +1,21 @@
+statefile:
+    azsubscription_id: ENC[AES256_GCM,data:VEsPklGyKrRXyiW/0ROVfz3oRL3t3+imKICVlkoIBpTPKUgM,iv:9b6q3OulIF4taawauz5AAE6yaHnSKk2QfaThidswP0s=,tag:ybt8wgLmZcLmg6PlvOfTGA==,type:str]
+    resource_group_name: ENC[AES256_GCM,data:+VwqvOmakTV6p0umuRHl/KRKtIAzoLNyd/WYx5i8,iv:keP2ZZm6CM/A6bJtQ0HAN/z2MnJmu8QIccqnOF/qAvk=,tag:XX1wAHTkC8aZxPGx5RIDbw==,type:str]
+    storage_account_name: ENC[AES256_GCM,data:P3yDtQpxX+HPdFbLGVf1vHU9/1Wy7c8=,iv:pCxobuSpYyVMFHhx5G1azsTVJYMeaZw7ztAkim0PEeE=,tag:bTWtqf4ORzPJeeulbIj7mA==,type:str]
+    container_name: ENC[AES256_GCM,data:9MA191GNeWMO3urgo5ihhg==,iv:eir86W+Cp9Radlisma+AsPsJ+oxWDqK/T6/ijeasqfs=,tag:8uDkOLgCtmFYbd7MYCeHhQ==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv:
+        - vault_url: https://kv-cvt-launchpad-prod-l0.vault.azure.net
+          name: sops-key
+          version: 88bfe4d3eee8419d8176b702675908c7
+          created_at: "2022-03-04T12:21:54Z"
+          enc: SYhJJCXK5k7wKxC3d2ZMRiLNxyeiGtRtLCL68ajLOLIPpBHem-HhG8abYie7KKg3zbsN5Xt9foinVMxN3ZqzXoKVOeNgFjgmL6eLbYoi-frELH3lUmh32s2O_D18w5XVRBHTfOm4c4Iqeo9bi08esEBWuEwh6h66QEWFMQ3Rq8yGx-DiI64co5uA1PxiD6J6ddq3zR7gskdNEE9ENIHGy7gYd2UVL-lnG9ehkBL5uWno84s2IeRh5Z8pyFDrOFfCHNQ9EkKYNnBSvr2BqTyyhkIxIlj701zhoDOFNCFb5YBogGzqriO4gq9p0tnnUm6uPE6TYc48BY6cLLzqNg3wAA
+    hc_vault: []
+    age: []
+    lastmodified: "2022-03-09T15:45:54Z"
+    mac: ENC[AES256_GCM,data:t/ZgY0LNhHR8EA4w3bfbjYnrxbhwbQhqZeu7dgW9oF3o9bzP1jvUEZHOmUiUFJul/TV4GtinvxFGT+UNz1m3cMinExuG78A/ft+HEZfrUcWPN4YoG2zU252amKoge4M44eAwMcNgwOhSbJivsP8vLnfDq4DmmY6kMN8s0UMUIHk=,iv:cSBNIfe9VBeNd/s0L89vjkLJu7+R0J88TePu+hLCE6g=,tag:yVGpuwUlepK7rRF4Yk0RSA==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.1
